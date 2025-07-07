@@ -126,8 +126,8 @@ function Experiences() {
                 theme === "light" ? "text-gray-700" : "text-gray-300"
               } max-w-full lg:max-w-[350px]`}
             >
-              Coding UI, managing libraries, automating tasks — these are the
-              tools I trust and master daily.
+              These are the essential tools I use to build effective web interfaces, 
+              test features, and document systems in collaborative projects.
             </motion.p>
           </motion.div>
         </motion.div>

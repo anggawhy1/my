@@ -5,11 +5,11 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 export const identity = {
   name: "Angga Dwi Wahyudi",
-  division: ["System Analyst", "Web Developer", "UI/UX Designer"],
+  division: ["System Analyst", "Web Developer" ],
   region: "Indonesia",
   description: [
     "I approach every project with structured thinking, clean execution, and user-focused logic. Whether it’s designing interfaces or analyzing systems, my goal is to deliver solutions that work seamlessly for both users and business processes behind them.",
-    "Hello! I’m Angga Dwi Wahyudi — a frontend developer with a strong interest in UI/UX design and a solid foundation in system analysis. I enjoy building interactive, user-friendly websites and crafting clean interfaces using Figma. With experience in both design and development, I aim to create digital products that are not only visually engaging but also aligned with user needs and system goals. I'm always excited to learn, improve, and bring meaningful ideas to life.",
+    "Hello! I’m Angga Dwi Wahyudi — a web developer with strong capabilities in frontend engineering and a solid foundation in system analysis. I focus on building responsive and intuitive interfaces while ensuring they align with user needs and system requirements. With experience across planning, coding, and deployment, I aim to contribute to efficient digital solutions and grow through real-world challenges.",
   ],
   picture: ["/image/about.jpeg", "/image/profil2.png"],
   CV: "/pdf/CV 2.pdf",
@@ -349,6 +349,18 @@ export const toolsList = [
     title: "XAMPP",
     level: "Basic",
   },
+  {
+    SkillIcon: () => (
+      <img
+        src="/image/icon/postman.png"
+        alt="Postman"
+        style={{ width: "32px", height: "32px" }}
+      />
+    ),
+    title: "Postman",
+    level: "Basic",
+  },
+  
   // {
   //   SkillIcon: () => (
   //     <img
@@ -442,7 +454,7 @@ export const exprienceList = [
     time: "Virtual Internship",
     company: "Maxy Academy",
     description:
-      "I develop an application and adding the feature into their application that called ADMTC",
+      "Berperan sebagai Frontend Developer dalam penyelesaian project case industri. Bertanggung jawab mengimplementasikan UI responsif, integrasi API, dan pengujian ftur menggunakan Laravel dan Tailwind CSS, serta berkolaborasi dalam tim agile untuk menyelesaikan proyek end-to-end sesuai brief dari mitra industri.",
     techStack: ["/image/icon/laravel.png", "/image/icon/tailwind.png", "/image/icon/js.png",]
   },
   {
@@ -492,20 +504,6 @@ export const portfolioList = [
   //   github: "https://github.com/namaprojek",
   // },
   {
-    title: "LaporPak",
-    subtitle: [
-      "/image/icon/laravel.png",
-      "/image/icon/tailwind.png",
-      "/image/icon/js.png",
-      "/image/icon/mysql.png",
-    ],
-    img: "/image/project-1.png",
-    description: "Sistem pelaporan masyarakat berbasis web menggunakan Laravel dan Tailwind CSS.",
-    category: "Website",
-    github: "https://github.com/anggawhy1/virtualproject.git",
-    preview: "https://laporpak.vercel.app",
-  },
-  {
     title: "Posyandu Surobayan",
     subtitle: [
       "/image/icon/ci.png",
@@ -517,7 +515,21 @@ export const portfolioList = [
     description: "Sistem informasi untuk manajemen Posyandu lokal berbasis CodeIgniter4 dan Tailwind CSS.",
     category: "Website",
     github: "https://github.com/anggawhy1/posyandu.git",
-    preview: "https://posyandusurobayan.com",
+    live: "https://posyandusurobayan.com",
+  },
+  {
+    title: "LaporPak",
+    subtitle: [
+      "/image/icon/laravel.png",
+      "/image/icon/tailwind.png",
+      "/image/icon/js.png",
+      "/image/icon/mysql.png",
+    ],
+    img: "/image/project-1.png",
+    description: "Sistem pelaporan masyarakat berbasis web menggunakan Laravel dan Tailwind CSS.",
+    category: "Website",
+    github: "https://github.com/anggawhy1/virtualproject.git",
+    live: "",
   },
   {
     title: "Sengkala Graduation",
@@ -530,7 +542,7 @@ export const portfolioList = [
     description: "Sistem informasi untuk manajemen Sengkala Graduation berbasis CodeIgniter4 dan Tailwind CSS.",
     category: "Website",
     github: "https://github.com/your-username/userflow-management-system", 
-    preview: "https://laporpak.vercel.app",
+    live: "",
   },
 
   //system analys

@@ -58,19 +58,19 @@ function About() {
 
           {/* Floating Tag - Mobile Responsive */}
           <div className="block md:absolute md:top-[-1rem] md:left-[-2rem] bg-green-100 text-green-800 text-sm font-semibold px-4 py-1 rounded-xl shadow">
-            #UXLover
+            #Web Developer
           </div>
 
           {/* Mini Tags */}
           <div className="flex gap-3 mt-2 flex-wrap justify-center">
             <span className="bg-green-50 text-green-700 text-xs px-3 py-1 rounded-full shadow-sm">
-              #TeamPlayer
+              #SystemAnalyst
             </span>
             <span className="bg-green-50 text-green-700 text-xs px-3 py-1 rounded-full shadow-sm">
               #ProblemSolver
             </span>
             <span className="bg-green-50 text-green-700 text-xs px-3 py-1 rounded-full shadow-sm">
-              #FrontendFirst
+              #FrontendDev
             </span>
           </div>
 
@@ -112,7 +112,7 @@ function About() {
             }`}
           >
             Passionate about{" "}
-            <span className="text-green-500">systems, interfaces,</span>{" "}
+            <span className="text-green-500">systems, functional design,</span>{" "}
             and building useful web products — based in{" "}
             <span className="text-green-500">{region} 🌏</span>
           </p>
