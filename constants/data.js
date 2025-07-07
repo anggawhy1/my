@@ -8,7 +8,7 @@ export const identity = {
   division: ["System Analyst", "Web Developer", "UI/UX Designer"],
   region: "Indonesia",
   description: [
-    "I approach every project with structured thinking, visual clarity, and technical precision. My goal is to build responsive interfaces that not only look good, but also work effectively for users and systems behind them.",
+    "I approach every project with structured thinking, clean execution, and user-focused logic. Whether it’s designing interfaces or analyzing systems, my goal is to deliver solutions that work seamlessly for both users and business processes behind them.",
     "Hello! I’m Angga Dwi Wahyudi — a frontend developer with a strong interest in UI/UX design and a solid foundation in system analysis. I enjoy building interactive, user-friendly websites and crafting clean interfaces using Figma. With experience in both design and development, I aim to create digital products that are not only visually engaging but also aligned with user needs and system goals. I'm always excited to learn, improve, and bring meaningful ideas to life.",
   ],
   picture: ["/image/about.jpeg", "/image/profil2.png"],
