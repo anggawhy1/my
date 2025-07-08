@@ -547,7 +547,7 @@ export const portfolioList = [
   {
     title: "My Portofolio",
     subtitle: [
-      "/image/icon/next.png",
+      "/image/icon/nextjs.png",
       "/image/icon/tailwind.png",
       "/image/icon/js.png",
     ],
