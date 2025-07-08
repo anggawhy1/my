@@ -544,6 +544,19 @@ export const portfolioList = [
     github: "https://github.com/your-username/userflow-management-system", 
     live: "",
   },
+  {
+    title: "My Portofolio",
+    subtitle: [
+      "/image/icon/next.png",
+      "/image/icon/tailwind.png",
+      "/image/icon/js.png",
+    ],
+    img: "/image/image.png",
+    description: "Website Portofolio.",
+    category: "Website",
+    github: "https://github.com/anggawhy1/myportofolio.git", 
+    live: "https://www.anggawhy.my.id/",
+  },
 
   //system analys
   {
@@ -606,16 +619,6 @@ export const portfolioList = [
     description:
       "",
   },
-  // { 
-  //   title: "Use Case",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/usecase-4.jpg",
-  //   description:
-  //     "",
-  // },
   {
     title: "Sequences Diagram",
     category: "Design Perancangan Sistem",
@@ -759,48 +762,7 @@ export const portfolioList = [
     live: "https://www.figma.com/design/mu66urwIpLDSNQESCp1Knl/Untitled?t=2CiG8xlJoZGALHnx-1",
   }
 
-
-
-
 ];
-
-// export const allPortfolioList = [...portfolioList];
-// export const allPortfolioList = [
-//   ...portfolioList,
-//   // {
-//   //   title: "Cryptoza Landing Page",
-//   //   subtitle: [
-//   //     "/image/icon/html.png",
-//   //     "/image/icon/css.png",
-//   //     "/image/icon/js.png",
-//   //   ],
-//   //   img: "/image/project-12.png",
-//   //   description:
-//   //     "Cryptoza Landing Page website I created using HTML, CSS, and JavaScript which can display daily crypto exchange rates, their values, and a demo of cryptograph.",
-//   // },
-// ];
-
-
-
-// export const certificateList = [
-//   {
-//     title: "Web Development Bootcamp",
-//     img: "/certificates/stupen.pdf"
-//   },
-//   {
-//     title: "UI/UX Design Mastery",
-//     img: "/certificates/uiux-design.pdf"
-//   },
-//   {
-//     title: "Frontend Engineer Program",
-//     img: "/certificates/frontend.pdf"
-//   },
-//   {
-//     title: "React Advanced Workshop",
-//     img: "/certificates/react-advanced.pdf"
-//   },
-//   // tambahkan lainnya sesuai kebutuhan
-// ];
 
 export const certificateList = [
   {
