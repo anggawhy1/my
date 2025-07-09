@@ -511,7 +511,7 @@ export const portfolioList = [
       "/image/icon/js.png",
       "/image/icon/mysql.png",
     ],
-    img: "/image/project-2.png",
+    img: "/image/project-2.png",       
     description: "Sistem informasi untuk manajemen Posyandu lokal berbasis CodeIgniter4 dan Tailwind CSS.",
     category: "Website",
     github: "https://github.com/anggawhy1/posyandu.git",
