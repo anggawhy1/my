@@ -560,16 +560,6 @@ export const portfolioList = [
 
   //system analys
   {
-    title: "Analisis Perancangan Sistem Informasi",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    file: "/pdf/analisis.pdf",
-    description:
-      "",
-  },
-  {
     title: "Flowchart",
     category: "Design Perancangan Sistem",
     subtitle: [
@@ -599,156 +589,156 @@ export const portfolioList = [
     description:
       "",
   },
-  // {
-  //   title: "Use Case",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/usecase-1.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Use Case",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/usecase-2.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Use Case",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/usecase-3.png",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Sequences Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/squence-1.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Sequences Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/squence-2.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Sequences Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/squence-3.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Sequences Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/erd-1.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Data Flow Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/dfd-1.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Data Flow Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/dfd-2.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Data Flow Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/dfd-3.png",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Data Flow Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/dfd-4.png",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Activity Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/activity-1.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Activity Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/activity-2.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Activity Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/activity-3.jpg",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   title: "Class Diagram",
-  //   category: "Design Perancangan Sistem",
-  //   subtitle: [
-  //     "/image/icon/drawio.png",
-  //   ],
-  //   img: "/image/class-1.jpg",
-  //   description:
-  //     "",
-  // },
+  {
+    title: "Use Case",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/usecase-1.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Use Case",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/usecase-2.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Use Case",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/usecase-3.png",
+    description:
+      "",
+  },
+  {
+    title: "Sequences Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/squence-1.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Sequences Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/squence-2.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Sequences Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/squence-3.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Sequences Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/erd-1.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Data Flow Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/dfd-1.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Data Flow Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/dfd-2.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Data Flow Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/dfd-3.png",
+    description:
+      "",
+  },
+  {
+    title: "Data Flow Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/dfd-4.png",
+    description:
+      "",
+  },
+  {
+    title: "Activity Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/activity-1.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Activity Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/activity-2.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Activity Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/activity-3.jpg",
+    description:
+      "",
+  },
+  {
+    title: "Class Diagram",
+    category: "Design Perancangan Sistem",
+    subtitle: [
+      "/image/icon/drawio.png",
+    ],
+    img: "/image/class-1.jpg",
+    description:
+      "",
+  },
   {
     title: "UI/UX Aplikasi LaporPak",
     category: "UI/UX",
