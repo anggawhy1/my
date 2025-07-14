@@ -565,7 +565,7 @@ export const portfolioList = [
     subtitle: [
       "/image/icon/drawio.png",
     ],
-    img: "/pdf/analisis.pdf",
+    file: "/pdf/analisis.pdf",
     description:
       "",
   },
