@@ -5,7 +5,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 export const identity = {
   name: "Angga Dwi Wahyudi",
-  division: ["System Analyst", "Web Developer" ],
+  division: ["System Analyst", "Web Developer"],
   region: "Indonesia",
   description: [
     "I approach every project with structured thinking, clean execution, and user-focused logic. Whether it’s designing interfaces or analyzing systems, my goal is to deliver solutions that work seamlessly for both users and business processes behind them.",
@@ -360,7 +360,7 @@ export const toolsList = [
     title: "Postman",
     level: "Basic",
   },
-  
+
   // {
   //   SkillIcon: () => (
   //     <img
@@ -491,18 +491,6 @@ export const servicesList = [
 
 
 export const portfolioList = [
-  // {
-  //   title: "Portofolio",
-  //   subtitle: [
-  //     "/image/icon/nextjs.png",
-  //     "/image/icon/tailwind.png",
-  //     "/image/icon/js.png",
-  //   ],
-  //   img: "/image/projectku.png",
-  //   description: "Project frontend modern menggunakan Next.js dan Tailwind CSS.",
-  //   category: "Website",
-  //   github: "https://github.com/namaprojek",
-  // },
   {
     title: "Posyandu Surobayan",
     subtitle: [
@@ -511,7 +499,7 @@ export const portfolioList = [
       "/image/icon/js.png",
       "/image/icon/mysql.png",
     ],
-    img: "/image/project-2.png",       
+    img: "/image/project-2.png",
     description: "Sistem informasi untuk manajemen Posyandu lokal berbasis CodeIgniter4 dan Tailwind CSS.",
     category: "Website",
     github: "https://github.com/anggawhy1/posyandu.git",
@@ -541,7 +529,7 @@ export const portfolioList = [
     img: "/image/project-3.png",
     description: "Sistem informasi untuk manajemen Sengkala Graduation berbasis CodeIgniter4 dan Tailwind CSS.",
     category: "Website",
-    github: "https://github.com/your-username/userflow-management-system", 
+    github: "https://github.com/your-username/userflow-management-system",
     live: "https://sengkala-graduation.my.id",
   },
   {
@@ -554,13 +542,22 @@ export const portfolioList = [
     img: "/image/image.png",
     description: "Website Portofolio.",
     category: "Website",
-    github: "https://github.com/anggawhy1/myportofolio.git", 
+    github: "https://github.com/anggawhy1/myportofolio.git",
     live: "https://www.anggawhy.my.id/",
   },
 
+
   //system analys
   {
-    title: "Flowchart",
+    title: "Analisis Perancangan Sistem Informasi",
+    category: "Design Perancangan Sistem",
+    subtitle: ["/image/icon/drawio.png"],
+    img: "/image/gambar1.png", 
+    file: "/files/analisis.pdf",
+    description: "Dokumen analisis sistem informasi dalam format PDF.",
+  },
+  {
+    title: "Flowchart Sistem",
     category: "Design Perancangan Sistem",
     subtitle: [
       "/image/icon/drawio.png",
@@ -570,7 +567,7 @@ export const portfolioList = [
       "",
   },
   {
-    title: "Flowchart",
+    title: "Flowchart Sistem",
     category: "Design Perancangan Sistem",
     subtitle: [
       "/image/icon/drawio.png",
@@ -580,165 +577,25 @@ export const portfolioList = [
       "",
   },
   {
-    title: "Arsitektur Sistem",
+    title: "Diagram Arsitektur Sistem",
     category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/arsiteksistem.jpg",
-    description:
-      "",
+    subtitle: ["/image/icon/drawio.png"],
+    img: "/image/arsiteksistem.jpg", 
+    description: "Dokumen analisis sistem informasi dalam format PDF.",
   },
   {
-    title: "Use Case",
+    title: "Usecase Diagram Website LaporPak",
     category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/usecase-1.jpg",
-    description:
-      "",
+    img: "/image/usecase-1.jpg", 
+    description: "Dokumen analisis sistem informasi dalam format PDF.",
   },
   {
-    title: "Use Case",
+    title: "Usecase Diagram Sistem Pemesanan Makanan",
     category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/usecase-2.jpg",
-    description:
-      "",
+    img: "/image/usecase-2.jpg", 
+    description: "Dokumen analisis sistem informasi dalam format PDF.",
   },
-  {
-    title: "Use Case",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/usecase-3.png",
-    description:
-      "",
-  },
-  {
-    title: "Sequences Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/squence-1.jpg",
-    description:
-      "",
-  },
-  {
-    title: "Sequences Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/squence-2.jpg",
-    description:
-      "",
-  },
-  {
-    title: "Sequences Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/squence-3.jpg",
-    description:
-      "",
-  },
-  {
-    title: "Sequences Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/erd-1.jpg",
-    description:
-      "",
-  },
-  {
-    title: "Data Flow Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/dfd-1.jpg",
-    description:
-      "",
-  },
-  {
-    title: "Data Flow Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/dfd-2.jpg",
-    description:
-      "",
-  },
-  {
-    title: "Data Flow Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/dfd-3.png",
-    description:
-      "",
-  },
-  {
-    title: "Data Flow Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/dfd-4.png",
-    description:
-      "",
-  },
-  {
-    title: "Activity Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/activity-1.jpg",
-    description:
-      "",
-  },
-  {
-    title: "Activity Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/activity-2.jpg",
-    description:
-      "",
-  },
-  {
-    title: "Activity Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/activity-3.jpg",
-    description:
-      "",
-  },
-  {
-    title: "Class Diagram",
-    category: "Design Perancangan Sistem",
-    subtitle: [
-      "/image/icon/drawio.png",
-    ],
-    img: "/image/class-1.jpg",
-    description:
-      "",
-  },
+
   {
     title: "UI/UX Aplikasi LaporPak",
     category: "UI/UX",
@@ -767,63 +624,63 @@ export const portfolioList = [
 export const certificateList = [
   {
     title: "SIB",
-    img: "/certificates/image.png", 
-    file: "/certificates/stupen.pdf",         
+    img: "/certificates/image.png",
+    file: "/certificates/stupen.pdf",
   },
   {
     title: "Project Case",
-    img: "/certificates/project-case.png", 
-    file: "/certificates/project-case.png",         
+    img: "/certificates/project-case.png",
+    file: "/certificates/project-case.png",
   },
   {
     title: "Hackathon 2",
-    img: "/certificates/hackaton.jpeg", 
-    file: "/certificates/hackaton.jpeg",         
+    img: "/certificates/hackaton.jpeg",
+    file: "/certificates/hackaton.jpeg",
   },
   {
     title: "Completed SIB",
-    img: "/certificates/image1.png", 
-    file: "/certificates/stupen2.pdf",         
+    img: "/certificates/image1.png",
+    file: "/certificates/stupen2.pdf",
   },
   {
     title: "PKL",
-    img: "/certificates/pkl.png", 
-    file: "/certificates/pkl.pdf",         
+    img: "/certificates/pkl.png",
+    file: "/certificates/pkl.pdf",
   },
   {
     title: "Dicoding",
-    img: "/certificates/dicoding-1.png", 
-    file: "/certificates/dicoding-1.pdf",         
+    img: "/certificates/dicoding-1.png",
+    file: "/certificates/dicoding-1.pdf",
   },
   {
     title: "Dicoding",
-    img: "/certificates/dicoding-2.png", 
-    file: "/certificates/dicoding-2.pdf",         
+    img: "/certificates/dicoding-2.png",
+    file: "/certificates/dicoding-2.pdf",
   },
   {
     title: "Dicoding",
-    img: "/certificates/dicoding-3.png", 
-    file: "/certificates/dicoding-3.pdf",         
+    img: "/certificates/dicoding-3.png",
+    file: "/certificates/dicoding-3.pdf",
   },
   {
     title: "Dicoding",
-    img: "/certificates/dicoding-4.png", 
-    file: "/certificates/dicoding-4.pdf",         
+    img: "/certificates/dicoding-4.png",
+    file: "/certificates/dicoding-4.pdf",
   },
   {
     title: "Dicoding",
-    img: "/certificates/dicoding-5.png", 
-    file: "/certificates/dicoding-5.pdf",         
+    img: "/certificates/dicoding-5.png",
+    file: "/certificates/dicoding-5.pdf",
   },
   {
     title: "Dicoding",
-    img: "/certificates/dicoding-6.png", 
-    file: "/certificates/dicoding-6.pdf",         
+    img: "/certificates/dicoding-6.png",
+    file: "/certificates/dicoding-6.pdf",
   },
   {
     title: "Dicoding",
-    img: "/certificates/dicoding-7.png", 
-    file: "/certificates/dicoding-7.pdf",         
+    img: "/certificates/dicoding-7.png",
+    file: "/certificates/dicoding-7.pdf",
   },
 ];
 
