@@ -95,7 +95,7 @@ function Portfolio() {
         <SectionSubtitle>Projects I Created</SectionSubtitle>
         <SectionDescription>{categoryDescriptions[activeCategory]}</SectionDescription>
 
-        <div className="flex flex-wrap justify-center mt-8 mb-12 gap-4 sm:gap-8 border-b border-gray-300 pb-4">
+        <div className="flex justify-center mt-8 mb-12 gap-8 border-b border-gray-300">
           {categories.map((cat) => (
             <button
               key={cat}
