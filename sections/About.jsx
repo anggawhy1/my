@@ -58,7 +58,7 @@ function About() {
 
           {/* Floating Tag - Mobile Responsive */}
           <div className="block md:absolute md:top-[-1rem] md:left-[-2rem] bg-green-100 text-green-800 text-sm font-semibold px-4 py-1 rounded-xl shadow">
-            #Web Developer
+            #Web Dev
           </div>
 
           {/* Mini Tags */}
