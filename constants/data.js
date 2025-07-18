@@ -5,7 +5,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 export const identity = {
   name: "Angga Dwi Wahyudi",
-  division: ["System Analyst", "Web Developer"],
+  division: ["Web Developer", "System Analyst",],
   region: "Indonesia",
   description: [
     "I approach every project with structured thinking, clean execution, and user-focused logic. Whether it’s designing interfaces or analyzing systems, my goal is to deliver solutions that work seamlessly for both users and business processes behind them.",
@@ -468,28 +468,6 @@ export const exprienceList = [
   },
 ];
 
-export const servicesList = [
-  {
-    title: "Software Testing",
-    ServicesIcon: MdOutlineScreenSearchDesktop,
-    description: "Software testing is the process that testing a software to make sure that software is running as expected and discover undiscover bug.",
-    services: ["Establish the right UX processes", "Create exceptional user experiences", "Discover undiscovered bug", "Save resources", "Software consultancy"],
-  },
-  {
-    title: "Web Development",
-    ServicesIcon: FaFileCode,
-    description: "Web development services are used to design, build, support, maintenance and evolve all types of web-based software.",
-    services: ["Web application development", "Web Testing", "Web Maintenancing", "Web Data Management", "Web Bug Fixing", "Web interface building", "Web experience building"],
-  },
-  {
-    title: "Content Writing",
-    ServicesIcon: FaAlignLeft,
-    description: "Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes.",
-    services: ["Web content writing", "Blog writing for websites", "Social media content", "Presentation content", "CV content writing"],
-  },
-];
-
-
 export const portfolioList = [
   {
     title: "Posyandu Surobayan",
@@ -539,11 +517,24 @@ export const portfolioList = [
       "/image/icon/tailwind.png",
       "/image/icon/js.png",
     ],
-    img: "/image/image.png",
+    img: "/image/image1.png",
     description: "Website Portofolio.",
     category: "Website",
     github: "https://github.com/anggawhy1/myportofolio.git",
     live: "https://www.anggawhy.my.id/",
+  },
+  {
+    title: "Integrasi Rest & Client",
+    subtitle: [
+      "/image/icon/ci.png",
+      "/image/icon/tailwind.png",
+      "/image/icon/js.png",
+    ],
+    img: "/image/integrasi.png",
+    description: "Integrasi Rest & Client.",
+    category: "Website",
+    github: "https://drive.google.com/drive/folders/1f57YDQZdaEjJ6wJ17ZPfbCnzcRmiCkg9?usp=sharing",
+    live: "https://www.anggawahyudi.my.id/",
   },
 
 
