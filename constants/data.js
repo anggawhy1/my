@@ -577,13 +577,13 @@ export const portfolioList = [
   {
     title: "Usecase Diagram Website LaporPak",
     category: "Design Perancangan Sistem",
-    img: "/image/usecase-1.jpg", 
+    img: "/image/usecase-2.jpg", 
     description: "Dokumen analisis sistem informasi dalam format PDF.",
   },
   {
     title: "Usecase Diagram Sistem Pemesanan Makanan",
     category: "Design Perancangan Sistem",
-    img: "/image/usecase-2.jpg", 
+    img: "/image/usecase-1.jpg", 
     description: "Dokumen analisis sistem informasi dalam format PDF.",
   },
 
